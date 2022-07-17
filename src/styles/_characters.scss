@@ -1,0 +1,7 @@
+.characters {
+  @include gridGallery;
+  width: 100%;
+  overflow: 'scroll';
+  min-height: 100vh;
+  place-content: start center;
+}

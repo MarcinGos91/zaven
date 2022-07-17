@@ -1,0 +1,20 @@
+
+
+@mixin fontSizes {
+  &__xxl {
+    font-size: clamp(2rem, 1.5500rem + 2.0000vw, 2.6rem);
+  }
+  &__xl {
+    font-size: clamp(1.6rem, 1.1500rem + 2.0000vw, 2.2rem);
+  }
+  &__l {
+    font-size: clamp(1.2rem, 0.9000rem + 1.3333vw, 1.6rem);
+  }
+  &__m {
+    font-size: clamp(0.8rem, 0.6500rem + 0.6667vw, 1rem);
+  }
+  &__s{
+    font-size: clamp(0.6rem, 0.4500rem + 0.6667vw, 0.8rem);
+  }
+}
+

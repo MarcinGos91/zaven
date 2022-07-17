@@ -1,0 +1,17 @@
+.global {
+  
+  &--container {
+    padding: $basePadding;
+  }
+
+  &--radio {
+    @include flexCC;
+    gap: $thumb * 0.15;
+  }
+
+  &--radioText {
+    text-transform: capitalize;
+    color: $black;
+  }
+
+}

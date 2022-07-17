@@ -1,0 +1,27 @@
+.card {
+  @include flexCenterTopCol;
+  border: 1px solid $black;
+  border-radius: $borderRadius;
+  background-color: $grey;
+  padding: 0 0 10px 0;
+  color: $black;
+
+  &--details {
+    @include flexCCC;
+  }
+
+  &--image {
+    width: 100%;
+    border-top-left-radius: $borderRadius;
+    border-top-right-radius: $borderRadius;
+  }
+
+  &--name {
+    @include fontSizes;
+    text-align: center;
+  }
+
+  &--status {
+    @include fontSizes;
+  }
+}

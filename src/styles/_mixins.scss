@@ -1,0 +1,27 @@
+@mixin gridGallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 280px));
+  grid-gap: 15px;
+}
+
+@mixin flexCC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexCCC {
+  @include flexCC;
+  flex-direction: column;
+}
+
+@mixin flexCenterTop {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@mixin flexCenterTopCol {
+  @include flexCenterTop;
+  flex-direction: column;
+}
